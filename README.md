@@ -3,9 +3,7 @@
 
 
 관련 키워드
-Personal Protective Equipment
-PPE detection
-PPE detection yolo
+Personal Protective Equipment, PPE detection, PPE detection yolo
 
 참고 사이트
 
