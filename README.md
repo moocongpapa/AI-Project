@@ -6,4 +6,6 @@
 
 https://www.youtube.com/watch?v=p6dwBhdR44g
 
+https://www.youtube.com/watch?v=T0DO1C8uYP8
+
 https://github.com/y3mr3/PPE-Detection-YOLO
