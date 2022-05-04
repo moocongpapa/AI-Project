@@ -3,23 +3,23 @@
 - 실시간 확인과 경고 발생을 위하여 CCTV 영상을 이용할 수 있음.
 - CCTV 영상을 자동으로 분석할 수 있는 AI 모델을 개발하고자 함.
 
+# Data Set
+ 1. Normal quality data
+ - image - 1330
+ - label - 1330
+ - annotation - 1330
 
-Normal quality data
-image - 1330
-label - 1330
-annotation - 1330
+ 2. Low quality data
+ - image - 100
+ - label - 100
 
-Low quality data
-image - 100
-label - 100
-
-Object class
-0 - People
-1 - Safety Vest
-2 - Safety Helmet (blue)
-3 - Safety Helmet (red)
-4 - Safety Helmet (white)
-5 - Safety Helmet (yellow)
+ 3. Object class
+ - 0 - People
+ - 1 - Safety Vest
+ - 2 - Safety Helmet (blue)
+ - 3 - Safety Helmet (red)
+ - 4 - Safety Helmet (white)
+ - 5 - Safety Helmet (yellow)
 
 
 # 상세 요구사항
