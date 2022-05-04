@@ -1,0 +1,18 @@
+다양한 Detection SOTA (State of the art) 활용
+
+
+
+mAP (mean Average Precision) 구하는 순서
+
+1. Precision - Recall 곡선을 그린다.
+2. Threshold를 0으로 정해 놓고 detection 알고리즘을 모든 test 이미지에 돌린다.
+3. Bounding-box에 해당하는 confidence score와 true positive/false positive 여부를 결정한다.
+4. Pair를 confidence 레벨값에 따라 내림차순으로 정렬한다.
+5. Interpolated Precision-recall 값을 구한다.
+6. AP를 구한다.
+7. mAP를 구한다.
+
+
+장점 1 : 인식 Threshold에 의존성없이 성능평가가 가능하다.
+장점 2 : mAP 평가를 통해 최적 threshold를 정할 수도 있다.
+단점 : 굉장히 느리다. 아무래도 모든 Test Image에서 threshold 0 이상의 box를 추출하고 정렬하는 과정을 거쳐야 하기 때문.
